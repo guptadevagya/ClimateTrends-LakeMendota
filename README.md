@@ -10,7 +10,7 @@ Lake Mendota, Wisconsin, has long been monitored for annual ice coverage, provid
 
 ## 🎯 Objectives
 
-1. **Data Curation**: Clean and structure raw ice coverage data from Lake Mendota.
+1. **Data Preparation**: Clean and structure raw ice coverage data from Lake Mendota.
 2. **Visualization**: Plot historical data to identify trends in ice coverage days.
 3. **Linear Regression**: Use a closed-form solution and gradient descent to fit a model predicting ice coverage days.
 4. **Prediction**: Forecast ice coverage for the 2023-24 season.
@@ -22,7 +22,7 @@ Lake Mendota, Wisconsin, has long been monitored for annual ice coverage, provid
 ## 📁 Project Structure
 
 ### Files
-- **`ice_days.csv`**: Curated dataset containing the years and corresponding ice coverage days.
+- **`ice_days.csv`**: Cleaned dataset containing the years and corresponding ice coverage days.
 - **`analysis.py`**: Python script to read data, run linear regression, and perform predictions.
 - **`data_plot.jpg`**: Visualization of the number of ice coverage days over the years.
 - **`loss_plot.jpg`**: Loss plot showing the error reduction over gradient descent iterations.
@@ -31,7 +31,7 @@ Lake Mendota, Wisconsin, has long been monitored for annual ice coverage, provid
 
 ### 🚀 Running the Code
 
-**Dependencies**: Make sure you have the following libraries installed: `numpy`, `matplotlib`, `pandas`.
+**Dependencies**: Make sure the following libraries are installed: `numpy`, `matplotlib`, `pandas`.
 
 To run the analysis, use the following command:
 
