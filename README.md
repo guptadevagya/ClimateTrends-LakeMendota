@@ -47,8 +47,9 @@ Where:
 
 ## 📊 Output Files
 - **`data_plot.jpg`**: Visual representation of ice coverage days over time.
+![Ice Coverage Plot](data_plot.jpg)
 - **`loss_plot.jpg`**: Loss plot for gradient descent showing convergence over time.
-
+![Loss Plot](loss_plot.jpg)
 ---
 
 ## 📈 Results and Observations
